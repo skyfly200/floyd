@@ -11,13 +11,13 @@
             v-tooltip(bottom)
                 template(v-slot:activator='{ on }')
                     v-btn(href='' icon large target='_blank' v-on='on')
-                        v-icon mdi-help
-                p Help
+                        v-icon mdi-github
+                p Source
             v-tooltip(bottom)
                 template(v-slot:activator='{ on }')
                     v-btn(href='' icon large target='_blank' v-on='on')
-                        v-icon mdi-github
-                p Source
+                        v-icon mdi-help
+                p Help
         v-card-text
             v-btn.sync-btn(height="200px" color="amber")
                 v-icon(large) mdi-gesture-double-tap
